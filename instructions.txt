@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Vetor sites #10 posições
+
+sites=(
+"www.uol.com.br"
+"www.terra.com.br"
+"www.gmail.com"
+"www.outlook.com"
+"web.whatsapp.com"
+"www.receita.fazenda.gov.br"
+"www.planalto.gov.br"
+"www.prodesp.sp.gov.br"
+"www.bol.com.br"
+"www.amazon.com"
+)
+openssh=(
+"191.25.2.30"
+"200.145.14.1"
+"172.158.50.254"
+"172.158.50.69"
+"192.168.1.33"
+)
