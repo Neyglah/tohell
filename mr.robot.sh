@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# decimo.sh - Nosso decimo programa em Shell - Mr. Robot
+# mr.robot.sh - Nosso robô em Shell - Mr. Robot
 #
 # Homepage: http://www.utah.com.br
 # Autor: Nickolas Pereira dos Santos <djnks87@gmail.com>
@@ -44,6 +44,10 @@ while true; do
 		*"connect"*|*"access"*|*"ssh"*)
 			DADO="$(( $RANDOM % 4 ))"
 			ssh -l root "${openssh[$DADO]}"
+		;;
+		*"update"*|*"atualize"*|*"atualizar"*)
+			apt update
+			apt upgrade -y
 		;;
 
 
